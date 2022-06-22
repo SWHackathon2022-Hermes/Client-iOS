@@ -22,32 +22,32 @@ struct ContentView: View {
     TabView(selection: $selection) {
       MapView()
         .tabItem {
-          Image("map")
+          Image("map").renderingMode(.template)
           Text("지도")
           
         }
         .tag(Tab.map)
       ToiletView()
         .tabItem {
-          Image("wc")
+          Image("wc").renderingMode(.template)
           Text("화장실")
         }
         .tag(Tab.toilet)
       ChargerView()
         .tabItem {
-          Image("battery_charging_full")
+          Image("battery_charging_full").renderingMode(.template)
           Text("급속충전기")
         }
         .tag(Tab.charger)
       LiftView()
         .tabItem {
-          Image("accessible")
+          Image("accessible").renderingMode(.template)
           Text("리프트 위치")
         }
         .tag(Tab.lift)
       ReportView()
         .tabItem {
-          Image("campaign")
+          Image("campaign").renderingMode(.template)
           Text("민원 등록")
         }
         .tag(Tab.report)
