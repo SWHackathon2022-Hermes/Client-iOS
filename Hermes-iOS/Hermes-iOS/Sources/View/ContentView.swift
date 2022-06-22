@@ -18,6 +18,11 @@ struct ContentView: View {
     case report
   }
   
+  init() {
+  UITabBar.appearance().backgroundColor = UIColor.white
+
+  }
+  
   var body: some View {
     TabView(selection: $selection) {
       MapView()

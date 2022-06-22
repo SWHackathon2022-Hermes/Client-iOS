@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F17ABB2286359B100BF182B /* Ex+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17ABB1286359B100BF182B /* Ex+Color.swift */; };
+		6F17ABBA286363CE00BF182B /* Ex+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17ABB9286363CE00BF182B /* Ex+View.swift */; };
 		6FCCC7E72863450F00F42BCE /* Hermes_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */; };
 		6FCCC7E92863450F00F42BCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC7E82863450F00F42BCE /* ContentView.swift */; };
 		6FCCC7EB2863451000F42BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCCC7EA2863451000F42BCE /* Assets.xcassets */; };
@@ -21,7 +22,6 @@
 		6FCCC822286345F400F42BCE /* ChatBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC821286345F400F42BCE /* ChatBotView.swift */; };
 		6FCCC824286345FB00F42BCE /* LiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC823286345FB00F42BCE /* LiftView.swift */; };
 		6FCCC8262863460400F42BCE /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC8252863460400F42BCE /* ReportView.swift */; };
-		6FCCC82A2863463E00F42BCE /* Ex+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC8292863463E00F42BCE /* Ex+View.swift */; };
 		6FCCC82C2863464B00F42BCE /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC82B2863464B00F42BCE /* Network.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		6F17ABB1286359B100BF182B /* Ex+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Color.swift"; sourceTree = "<group>"; };
+		6F17ABB9286363CE00BF182B /* Ex+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+View.swift"; sourceTree = "<group>"; };
 		6FCCC7E32863450F00F42BCE /* Hermes-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hermes-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hermes_iOSApp.swift; sourceTree = "<group>"; };
 		6FCCC7E82863450F00F42BCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		6FCCC821286345F400F42BCE /* ChatBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotView.swift; sourceTree = "<group>"; };
 		6FCCC823286345FB00F42BCE /* LiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftView.swift; sourceTree = "<group>"; };
 		6FCCC8252863460400F42BCE /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
-		6FCCC8292863463E00F42BCE /* Ex+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+View.swift"; sourceTree = "<group>"; };
 		6FCCC82B2863464B00F42BCE /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -244,8 +244,8 @@
 		6FCCC8282863461F00F42BCE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				6FCCC8292863463E00F42BCE /* Ex+View.swift */,
 				6F17ABB1286359B100BF182B /* Ex+Color.swift */,
+				6F17ABB9286363CE00BF182B /* Ex+View.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -382,11 +382,11 @@
 			files = (
 				6FCCC82C2863464B00F42BCE /* Network.swift in Sources */,
 				6FCCC822286345F400F42BCE /* ChatBotView.swift in Sources */,
-				6FCCC82A2863463E00F42BCE /* Ex+View.swift in Sources */,
 				6FCCC824286345FB00F42BCE /* LiftView.swift in Sources */,
 				6FCCC8262863460400F42BCE /* ReportView.swift in Sources */,
 				6FCCC7E92863450F00F42BCE /* ContentView.swift in Sources */,
 				6FCCC81C286345DC00F42BCE /* MapView.swift in Sources */,
+				6F17ABBA286363CE00BF182B /* Ex+View.swift in Sources */,
 				6F17ABB2286359B100BF182B /* Ex+Color.swift in Sources */,
 				6FCCC7E72863450F00F42BCE /* Hermes_iOSApp.swift in Sources */,
 				6FCCC81E286345E300F42BCE /* ToiletView.swift in Sources */,
