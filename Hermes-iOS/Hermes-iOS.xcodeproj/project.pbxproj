@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3DCC0BC32863690D00AAB2AC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BC22863690D00AAB2AC /* MainView.swift */; };
+		3DCC0BC528636D8E00AAB2AC /* TextBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BC428636D8D00AAB2AC /* TextBar.swift */; };
 		6FCCC7E72863450F00F42BCE /* Hermes_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */; };
 		6FCCC7E92863450F00F42BCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC7E82863450F00F42BCE /* ContentView.swift */; };
 		6FCCC7EB2863451000F42BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCCC7EA2863451000F42BCE /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		3DCC0BC22863690D00AAB2AC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3DCC0BC428636D8D00AAB2AC /* TextBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBar.swift; sourceTree = "<group>"; };
 		6FCCC7E32863450F00F42BCE /* Hermes-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hermes-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hermes_iOSApp.swift; sourceTree = "<group>"; };
 		6FCCC7E82863450F00F42BCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 			children = (
 				3DCC0BC22863690D00AAB2AC /* MainView.swift */,
 				6FCCC81B286345DC00F42BCE /* MapView.swift */,
+				3DCC0BC428636D8D00AAB2AC /* TextBar.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			files = (
 				6FCCC82C2863464B00F42BCE /* Network.swift in Sources */,
 				6FCCC822286345F400F42BCE /* ChatBotView.swift in Sources */,
+				3DCC0BC528636D8E00AAB2AC /* TextBar.swift in Sources */,
 				6FCCC82A2863463E00F42BCE /* Ex+View.swift in Sources */,
 				6FCCC824286345FB00F42BCE /* LiftView.swift in Sources */,
 				6FCCC8262863460400F42BCE /* ReportView.swift in Sources */,
