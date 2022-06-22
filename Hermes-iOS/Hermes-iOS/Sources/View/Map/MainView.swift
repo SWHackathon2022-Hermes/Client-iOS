@@ -9,7 +9,18 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        MapView()
+        VStack {
+            TextBar()
+                .zIndex(1)
+                .clipShape(RoundedRectangle(cornerRadius: 8))
+                .overlay {
+                    RoundedRectangle(cornerRadius: 8).stroke(.gray, lineWidth: 0)
+                }
+                .shadow(color: .secondary, radius: 3, x: 0, y: 3)
+            MapView()
+                .padding(.top, -130)
+                
+        }
     }
 }
 
