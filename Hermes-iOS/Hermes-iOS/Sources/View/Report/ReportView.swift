@@ -32,7 +32,7 @@ struct ReportView: View {
               .frame(alignment: .leading)
               .padding(EdgeInsets(top: 18, leading: 16, bottom: 5, trailing: 0))
             Text(" *")
-              .font(.custom("NotoSansKR", size: 14))
+              .font(.custom("NotoSansKR-Bold", size: 14))
               .foregroundColor(Color(hex: "#FF6565"))
               .frame(maxWidth: .infinity, alignment: .leading)
               .padding(EdgeInsets(top: 18, leading: 0, bottom: 5, trailing: 0))
@@ -66,7 +66,7 @@ struct ReportView: View {
               .frame(alignment: .leading)
               .padding(EdgeInsets(top: 15, leading: 16, bottom: 5, trailing: 0))
             Text(" *")
-              .font(.custom("NotoSansKR", size: 14))
+              .font(.custom("NotoSansKR-Bold", size: 14))
               .foregroundColor(Color(hex: "#FF6565"))
               .frame(maxWidth: .infinity, alignment: .leading)
               .padding(EdgeInsets(top: 15, leading: 0, bottom: 5, trailing: 0))
@@ -95,7 +95,7 @@ struct ReportView: View {
           
           // MARK: - 상세 주소
           Text("상세 주소")
-            .font(.custom("Noto Sans KR", size: 14))
+            .font(.custom("NotoSansKR-Bold", size: 14))
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(EdgeInsets(top: 15, leading: 16, bottom: 5, trailing: 0))
           TextField("", text: $detailAddress)
@@ -106,7 +106,7 @@ struct ReportView: View {
           
           // MARK: - 민원 내용
           Text("민원 내용")
-            .font(.custom("Noto Sans KR-Bold", size: 14))
+            .font(.custom("NotoSansKR-Bold", size: 14))
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(EdgeInsets(top: 15, leading: 16, bottom: 5, trailing: 0))
           ZStack {
@@ -125,11 +125,11 @@ struct ReportView: View {
           // MARK: - 첨부파일
           HStack(spacing: 0){
             Text("첨부파일")
-              .font(.custom("NotoSansKR", size: 14))
+              .font(.custom("NotoSansKR-Bold", size: 14))
               .frame(alignment: .leading)
               .padding(EdgeInsets(top: 15, leading: 16, bottom: 5, trailing: 0))
             Text(" *")
-              .font(.custom("NotoSansKR", size: 14))
+              .font(.custom("NotoSansKR-Bold", size: 14))
               .foregroundColor(Color(hex: "#FF6565"))
               .frame(maxWidth: .infinity, alignment: .leading)
               .padding(EdgeInsets(top: 15, leading: 0, bottom: 5, trailing: 0))
