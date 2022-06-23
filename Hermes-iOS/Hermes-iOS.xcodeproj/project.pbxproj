@@ -45,6 +45,10 @@
 		6FCCC82C2863464B00F42BCE /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC82B2863464B00F42BCE /* Network.swift */; };
 		6FFDF5AC2864856900F1A3B4 /* Ex+TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDF5AB2864856900F1A3B4 /* Ex+TabBar.swift */; };
 		6FFDF5B02864AB3700F1A3B4 /* BeforeReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDF5AF2864AB3700F1A3B4 /* BeforeReportView.swift */; };
+		6FFDF5B22864E7EC00F1A3B4 /* Ex+UIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDF5B12864E7EC00F1A3B4 /* Ex+UIImagePicker.swift */; };
+		6FFDF5BA2865014D00F1A3B4 /* ReportOKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDF5B92865014D00F1A3B4 /* ReportOKView.swift */; };
+		6FFDF5BC2865038C00F1A3B4 /* Ex+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDF5BB2865038C00F1A3B4 /* Ex+UIViewController.swift */; };
+		6FFDF5BE2865052700F1A3B4 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDF5BD2865052700F1A3B4 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +110,10 @@
 		6FCCC82B2863464B00F42BCE /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		6FFDF5AB2864856900F1A3B4 /* Ex+TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+TabBar.swift"; sourceTree = "<group>"; };
 		6FFDF5AF2864AB3700F1A3B4 /* BeforeReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeReportView.swift; sourceTree = "<group>"; };
+		6FFDF5B12864E7EC00F1A3B4 /* Ex+UIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+UIImagePicker.swift"; sourceTree = "<group>"; };
+		6FFDF5B92865014D00F1A3B4 /* ReportOKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportOKView.swift; sourceTree = "<group>"; };
+		6FFDF5BB2865038C00F1A3B4 /* Ex+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+UIViewController.swift"; sourceTree = "<group>"; };
+		6FFDF5BD2865052700F1A3B4 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +228,7 @@
 		6FCCC8122863455C00F42BCE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6FFDF5BD2865052700F1A3B4 /* SplashView.swift */,
 				6FCCC7E82863450F00F42BCE /* ContentView.swift */,
 				6FCCC8162863456F00F42BCE /* Map */,
 				6FCCC8172863457100F42BCE /* Toilet */,
@@ -277,8 +286,8 @@
 		6FCCC8172863457100F42BCE /* Toilet */ = {
 			isa = PBXGroup;
 			children = (
-				6FCCC81D286345E300F42BCE /* ToiletView.swift */,
 				3DCC0BFB2864C24F00AAB2AC /* ToiletMapView.swift */,
+				6FCCC81D286345E300F42BCE /* ToiletView.swift */,
 				3DCC0BFF2864F01D00AAB2AC /* DescriptionModal.swift */,
 			);
 			path = Toilet;
@@ -291,6 +300,7 @@
 				6FC89B032864392300AB9C25 /* ReportImageView.swift */,
 				6FC89B052864393A00AB9C25 /* CustomNavigationBar.swift */,
 				6FFDF5AF2864AB3700F1A3B4 /* BeforeReportView.swift */,
+				6FFDF5B92865014D00F1A3B4 /* ReportOKView.swift */,
 			);
 			path = Report;
 			sourceTree = "<group>";
@@ -320,6 +330,8 @@
 				6F17ABB1286359B100BF182B /* Ex+Color.swift */,
 				6F17ABB9286363CE00BF182B /* Ex+View.swift */,
 				6FFDF5AB2864856900F1A3B4 /* Ex+TabBar.swift */,
+				6FFDF5B12864E7EC00F1A3B4 /* Ex+UIImagePicker.swift */,
+				6FFDF5BB2865038C00F1A3B4 /* Ex+UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -457,7 +469,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FFDF5B22864E7EC00F1A3B4 /* Ex+UIImagePicker.swift in Sources */,
 				3DCC0BC9286387D800AAB2AC /* LiftMapView.swift in Sources */,
+				6FFDF5BA2865014D00F1A3B4 /* ReportOKView.swift in Sources */,
 				6FCCC82C2863464B00F42BCE /* Network.swift in Sources */,
 				3DCC0BCB28639A7400AAB2AC /* ModelData.swift in Sources */,
 				6FCCC822286345F400F42BCE /* ChatBotView.swift in Sources */,
@@ -466,6 +480,7 @@
 				3DCC0BCD2863A16200AAB2AC /* LiftViewManager.swift in Sources */,
 				6FCCC8262863460400F42BCE /* ReportView.swift in Sources */,
 				6FC89B042864392300AB9C25 /* ReportImageView.swift in Sources */,
+				6FFDF5BE2865052700F1A3B4 /* SplashView.swift in Sources */,
 				6FCCC7E92863450F00F42BCE /* ContentView.swift in Sources */,
 				3DCC0BFC2864C24F00AAB2AC /* ToiletMapView.swift in Sources */,
 				3DCC0C042865091600AAB2AC /* LiftDescriptionModal.swift in Sources */,
@@ -487,6 +502,7 @@
 				3DCC0BFA2864C23400AAB2AC /* ChargerMapView.swift in Sources */,
 				6FCCC81E286345E300F42BCE /* ToiletView.swift in Sources */,
 				6FCCC820286345EA00F42BCE /* ChargerView.swift in Sources */,
+				6FFDF5BC2865038C00F1A3B4 /* Ex+UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
