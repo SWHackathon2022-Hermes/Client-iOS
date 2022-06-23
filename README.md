@@ -1,6 +1,5 @@
 # <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> Hermes-iOS
-SW중심대학 공동해커톤 Hermes조 
-**Fill-in your Film, Fill-IN**
+**SW중심대학 공동해커톤 Hermes조 **
 > **SW중심대학 공동해커톤 2022**  
 > **프로젝트 기간 : 2022.06.24~ 2022.06.24**  
 > 
@@ -26,7 +25,7 @@ SW중심대학 공동해커톤 Hermes조
 
 ## Foldering Convention
 <details>
-<summary>필린 아요들의 폴더링 컨벤션 보기</summary>
+<summary>폴더링 컨벤션 보기</summary>
 <div markdown="1">
 📦 Hermes
 |
