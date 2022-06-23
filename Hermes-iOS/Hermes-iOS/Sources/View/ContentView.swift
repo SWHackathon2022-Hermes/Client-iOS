@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
   @State private var selection: Tab = .map
-    @StateObject private var vm = LiftManager()
+  @StateObject private var vm = LiftManager()
   
   enum Tab {
     case map
