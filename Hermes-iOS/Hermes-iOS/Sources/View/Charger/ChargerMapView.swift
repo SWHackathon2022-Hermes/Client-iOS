@@ -15,14 +15,31 @@ struct ChargerMapView: View {
     )
     
     @EnvironmentObject private var chargerVM: ChargerManager
+    @State private var seletedPin: chargerModel = ChargerManager().chargers.first!
     
     var body: some View {
         Map(coordinateRegion: $region, annotationItems: chargerVM.chargers) { place in
                                 MapAnnotation(coordinate: place.coordinate) {
                                     Image("Pin_charge")
+                                        .onTapGesture {
+                                            seletedPin = place
+                                        }
                                 }
                             }
                             .edgesIgnoringSafeArea(.all)
+        VStack(spacing: 0) {
+            Spacer()
+            
+            ZStack {
+                ForEach(chargerVM.chargers) { charger in
+                    if seletedPin.id == charger.id {
+                        ChargerDescriptionModal(charger: charger)
+                            .shadow(color: Color(hex: "48414D").opacity(0.2), radius: 9, x: 0, y: 3)
+                    }
+                }
+                .padding(.bottom, -5)
+            }
+        }
     }
 }
 

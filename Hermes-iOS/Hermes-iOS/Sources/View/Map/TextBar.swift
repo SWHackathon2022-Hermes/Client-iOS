@@ -12,10 +12,17 @@ struct TextBar: View {
     
     var body: some View {
         ZStack {
-            TextField("장소 검색", text: $placeAddress)
-                .background(.white)
-                .frame(width: 340, height: 56.0)
-                .zIndex(1)
+            
+            HStack {
+                TextField("장소 검색", text: $placeAddress)
+                    .background(.white)
+                    .frame(width: 280, height: 56.0)
+                    .padding(.leading, 50)
+                
+                Image("search")
+                    .padding(.trailing, 30)
+            }
+            .zIndex(1)
             
             RoundedRectangle(cornerRadius: 8)
                 .stroke(lineWidth: 0)
