@@ -8,14 +8,39 @@
 import SwiftUI
 
 struct ChargerView: View {
-    var body: some View {
+  @State private var showModal = false
+  
+  var body: some View {
+    NavigationView{
+      ZStack {
         ChargerMapView()
+        VStack{
+          Spacer()
+          HStack{
+            Spacer()
+            VStack {
+              Button(action: {
+                self.showModal = true
+              }){
+                Image("Character")
+                  .frame(width: 55.13, height: 50.15)
+                  .padding(.bottom, 16.85)
+                  .padding(.trailing, 15.87)
+              }
+              .fullScreenCover(isPresented:  self.$showModal) {
+                ChatBotView()
+              }
+            }
+          }
+        }
+      }
     }
+  }
 }
 
 struct ChargerView_Previews: PreviewProvider {
-    static var previews: some View {
-        ChargerView()
-            .environmentObject(ChargerManager())
-    }
+  static var previews: some View {
+    ChargerView()
+      .environmentObject(ChargerManager())
+  }
 }
