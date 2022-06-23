@@ -98,12 +98,16 @@ struct ChatBotView: View {
   
   func sendMessage(message: String) {
     withAnimation {
-      messages.append("[USER]" + message)
-      self.messageText = ""
+      if message != "" {
+        messages.append("[USER]" + message)
+        self.messageText = ""
+      }
     }
     DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
       withAnimation {
-        messages.append(getBotResponse(message: message))
+        if message != "" {
+          messages.append(getBotResponse(message: message))
+        }
       }
     }
   }
