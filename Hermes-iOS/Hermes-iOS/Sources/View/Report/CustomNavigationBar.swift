@@ -11,17 +11,15 @@ struct CustomNavigationBar: View {
   var body: some View {
     ZStack{
       Color(.white)
-      
       HStack(alignment: .bottom, spacing: 0) {
-        Button {
-          
-        } label: {
+        NavigationLink(destination: ContentView()) {
           Image(systemName: "chevron.left")
             .font(.custom("SF-pro", size: 20))
             .foregroundColor(Color(hex: "1F1F1F"))
+            .frame(width: 24, height: 24, alignment: .center)
             .padding(EdgeInsets(top: 60, leading: 16, bottom: 16, trailing: 0))
-          
         }
+        
         Text("민원등록")
           .font(.custom("NotoSansKR-Bold", size: 16))
           .foregroundColor(Color(hex: "1F1F1F"))
