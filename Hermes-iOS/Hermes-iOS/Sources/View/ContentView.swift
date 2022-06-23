@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
   @State private var selection: Tab = .map
+    @StateObject private var vm = LiftManager()
   
   enum Tab {
     case map
@@ -24,7 +25,7 @@ struct ContentView: View {
   
   var body: some View {
     TabView(selection: $selection) {
-      MapView()
+      MainView()
         .tabItem {
           Image("map").renderingMode(.template)
           Text("지도")
@@ -43,6 +44,7 @@ struct ContentView: View {
         }
         .tag(Tab.charger)
       LiftView()
+            .environmentObject(vm)
         .tabItem {
           Image("accessible").renderingMode(.template)
           Text("리프트 위치")
