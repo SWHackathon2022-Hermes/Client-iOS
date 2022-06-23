@@ -15,14 +15,43 @@ struct ToiletMapView: View {
     )
     
     @EnvironmentObject private var toiletVM: ToiletManager
+    @State private var selectedPin: toiletModel = ToiletManager().toilets.first!
+    
+    @State private var modalHide: Bool = false
     
     var body: some View {
-        Map(coordinateRegion: $region, annotationItems: toiletVM.toilets) { place in
-                                MapAnnotation(coordinate: place.coordinate) {
-                                    Image("Pin_toilet")
+        
+        ZStack {
+            Map(coordinateRegion: $region, annotationItems: toiletVM.toilets) { place in
+                                    MapAnnotation(coordinate: place.coordinate) {
+                                        Image(selectedPin.id == place.id ? "Pin_toilet_selected" : "Pin_toilet")
+                                            .scaleEffect(selectedPin.id == place.id ? 1 : 0.7)
+                                            .shadow(radius: selectedPin.id == place.id ? 10 : 0)
+                                            .onTapGesture {
+                                                selectedPin = place
+                                            }
+                                            .animation(.easeIn)
+                                    }
+                                    
                                 }
-                            }
-                            .edgesIgnoringSafeArea(.all)
+            .edgesIgnoringSafeArea(.all)
+ 
+            VStack(spacing: 0) {
+                Spacer()
+                
+                ZStack {
+                    ForEach(toiletVM.toilets) { toilet in
+                        if selectedPin.id == toilet.id {
+                            DescriptionModal(toilet: toilet)
+                                .shadow(color: Color(hex: "48414D").opacity(0.2), radius: 9, x: 0, y: 3)
+                                .opacity(modalHide == true ? 0 : 1)
+                                .animation(.easeIn, value: modalHide)
+                        }
+                    }
+                    .padding(.bottom, -5)
+                }
+            }
+        }
     }
 }
 

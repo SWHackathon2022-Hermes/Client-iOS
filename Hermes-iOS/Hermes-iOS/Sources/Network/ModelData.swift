@@ -24,7 +24,7 @@ struct row: Codable, Identifiable {
     let NODE_WKT: String
     let SW_NM: String
     let SGG_NM: String
-    let EMD_CD: String
+    let EMD_NM: String
     
     var coordinate: CLLocationCoordinate2D {
         let startPoint = NODE_WKT.index(SW_NM.startIndex, offsetBy: 6)

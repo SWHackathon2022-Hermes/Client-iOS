@@ -14,18 +14,39 @@ struct LiftMapView: View {
         span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
     )
     @EnvironmentObject private var vm: LiftManager
+    @State private var selectedPin: row = row(NODE_WKT: "", SW_NM: "", SGG_NM: "", EMD_NM: "")
     
     var body: some View {
         Map(coordinateRegion: $region, annotationItems: vm.lifts) { place in
             MapAnnotation(coordinate: place.coordinate) {
-                Image("Pin_lift")
+                Image(selectedPin.id == place.id ? "Pin_lift_selected" : "Pin_lift")
+                    .scaleEffect(selectedPin.id == place.id ? 1 : 0.7)
+                    .shadow(radius: selectedPin.id == place.id ? 10 : 0)
+                    .onTapGesture {
+                        selectedPin = place
+                    }
+                    .animation(.easeIn)
             }
                         
+        }
+        .edgesIgnoringSafeArea(.all)
+        .onAppear {
+            setMarker()
+        }
+        
+        VStack(spacing: 0) {
+            Spacer()
+            
+            ZStack {
+                ForEach(vm.lifts) { lift in
+                    if selectedPin.id == lift.id {
+                        LiftDescriptionModal(lift: lift)
+                            .shadow(color: Color(hex: "48414D").opacity(0.2), radius: 9, x: 0, y: 3)
+                    }
                 }
-                .edgesIgnoringSafeArea(.all)
-                .onAppear {
-                    setMarker()
-                }
+                .padding(.bottom, -5)
+            }
+        }
     }
     
     private func setMarker() {
