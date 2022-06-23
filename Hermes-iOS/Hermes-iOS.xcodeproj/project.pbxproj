@@ -10,7 +10,6 @@
 		3DCC0BC32863690D00AAB2AC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BC22863690D00AAB2AC /* MainView.swift */; };
 		6F17ABB2286359B100BF182B /* Ex+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17ABB1286359B100BF182B /* Ex+Color.swift */; };
 		6F17ABBA286363CE00BF182B /* Ex+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17ABB9286363CE00BF182B /* Ex+View.swift */; };
-		6F17ABBC28637A9000BF182B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F17ABBB28637A9000BF182B /* Storyboard.storyboard */; };
 		6FCCC7E72863450F00F42BCE /* Hermes_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */; };
 		6FCCC7E92863450F00F42BCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC7E82863450F00F42BCE /* ContentView.swift */; };
 		6FCCC7EB2863451000F42BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCCC7EA2863451000F42BCE /* Assets.xcassets */; };
@@ -50,7 +49,6 @@
 		3DCC0BC22863690D00AAB2AC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		6F17ABB1286359B100BF182B /* Ex+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Color.swift"; sourceTree = "<group>"; };
 		6F17ABB9286363CE00BF182B /* Ex+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+View.swift"; sourceTree = "<group>"; };
-		6F17ABBB28637A9000BF182B /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		6FCCC7E32863450F00F42BCE /* Hermes-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hermes-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hermes_iOSApp.swift; sourceTree = "<group>"; };
 		6FCCC7E82863450F00F42BCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 			children = (
 				6FCCC8132863456300F42BCE /* Network */,
 				6FCCC8122863455C00F42BCE /* View */,
-				6F17ABBB28637A9000BF182B /* Storyboard.storyboard */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -382,7 +379,6 @@
 			files = (
 				6FCCC7EE2863451000F42BCE /* Preview Assets.xcassets in Resources */,
 				6FCCC7EB2863451000F42BCE /* Assets.xcassets in Resources */,
-				6F17ABBC28637A9000BF182B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
