@@ -11,7 +11,7 @@ import SwiftUI
 struct Hermes_iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
