@@ -13,6 +13,9 @@
 		6F17ABBA286363CE00BF182B /* Ex+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17ABB9286363CE00BF182B /* Ex+View.swift */; };
 		6FC89B042864392300AB9C25 /* ReportImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC89B032864392300AB9C25 /* ReportImageView.swift */; };
 		6FC89B062864393A00AB9C25 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC89B052864393A00AB9C25 /* CustomNavigationBar.swift */; };
+		6FC89B0928643B4000AB9C25 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC89B0828643B4000AB9C25 /* NotoSansKR-Bold.otf */; };
+		6FC89B0B28643B4800AB9C25 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC89B0A28643B4800AB9C25 /* NotoSansKR-Medium.otf */; };
+		6FC89B0D28643B5200AB9C25 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC89B0C28643B5200AB9C25 /* NotoSansKR-Regular.otf */; };
 		6FCCC7E72863450F00F42BCE /* Hermes_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */; };
 		6FCCC7E92863450F00F42BCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC7E82863450F00F42BCE /* ContentView.swift */; };
 		6FCCC7EB2863451000F42BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCCC7EA2863451000F42BCE /* Assets.xcassets */; };
@@ -53,6 +56,10 @@
 		6F17ABB9286363CE00BF182B /* Ex+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+View.swift"; sourceTree = "<group>"; };
 		6FC89B032864392300AB9C25 /* ReportImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportImageView.swift; sourceTree = "<group>"; };
 		6FC89B052864393A00AB9C25 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		6FC89B0828643B4000AB9C25 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		6FC89B0A28643B4800AB9C25 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		6FC89B0C28643B5200AB9C25 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		6FC89B0E28643C1300AB9C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6FCCC7E32863450F00F42BCE /* Hermes-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hermes-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hermes_iOSApp.swift; sourceTree = "<group>"; };
 		6FCCC7E82863450F00F42BCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FC89B0728643B2200AB9C25 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6FC89B0828643B4000AB9C25 /* NotoSansKR-Bold.otf */,
+				6FC89B0A28643B4800AB9C25 /* NotoSansKR-Medium.otf */,
+				6FC89B0C28643B5200AB9C25 /* NotoSansKR-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		6FCCC7DA2863450F00F42BCE = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +137,7 @@
 		6FCCC7E52863450F00F42BCE /* Hermes-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6FC89B0E28643C1300AB9C25 /* Info.plist */,
 				6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */,
 				6FCCC8102863454500F42BCE /* Configuration */,
 				6FCCC8112863455800F42BCE /* Sources */,
@@ -155,6 +173,7 @@
 		6FCCC8102863454500F42BCE /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				6FC89B0728643B2200AB9C25 /* Fonts */,
 				6FCCC8272863461B00F42BCE /* Assets */,
 				6FCCC8282863461F00F42BCE /* Extensions */,
 			);
@@ -366,8 +385,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC89B0B28643B4800AB9C25 /* NotoSansKR-Medium.otf in Resources */,
 				6FCCC7EE2863451000F42BCE /* Preview Assets.xcassets in Resources */,
+				6FC89B0928643B4000AB9C25 /* NotoSansKR-Bold.otf in Resources */,
 				6FCCC7EB2863451000F42BCE /* Assets.xcassets in Resources */,
+				6FC89B0D28643B5200AB9C25 /* NotoSansKR-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +591,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Hermes-iOS/Configuration/Assets/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hermes-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -597,6 +620,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Hermes-iOS/Configuration/Assets/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hermes-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
