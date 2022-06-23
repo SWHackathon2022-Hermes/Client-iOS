@@ -9,12 +9,13 @@ import SwiftUI
 
 struct ChargerView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ChargerMapView()
     }
 }
 
 struct ChargerView_Previews: PreviewProvider {
     static var previews: some View {
         ChargerView()
+            .environmentObject(ChargerManager())
     }
 }

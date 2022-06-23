@@ -8,6 +8,7 @@
 import Foundation
 import CoreLocation
 
+// MARK: Lift 관련 데이터
 struct liftInfo: Codable {
     let tbTraficEntrcLft: tbTraficEntrcLft
     
@@ -44,4 +45,36 @@ struct row: Codable, Identifiable {
     }
 }
 
+// MARK: Toilet 관련 데이터
+// 이름, 위도, 경도, 지상/지하, 층수, 상세위치
+struct toiletModel: Identifiable {
+    let name: String
+    let latitude: Double
+    let longitude: Double
+    let isGround: Bool
+    let floor: Int
+    let description: String
+    
+    var coordinate: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
+    
+    var id: String {
+        name + "\(floor)"
+    }
+}
 
+// MARK: Charger 관련 데이터
+// 이름, 위도, 경도, 역번호, 상세위치, 수량
+struct chargerModel: Identifiable {
+    let id: Int
+    let name: String
+    let latitude: Double
+    let longitude: Double
+    let description: String
+    let quantity: Int
+    
+    var coordinate: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
+}
