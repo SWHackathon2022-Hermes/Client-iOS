@@ -16,5 +16,6 @@ struct LiftView: View {
 struct LiftView_Previews: PreviewProvider {
     static var previews: some View {
         LiftView()
+            .environmentObject(LiftManager())
     }
 }

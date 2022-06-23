@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
   @State private var selection: Tab = .map
   @StateObject private var vm = LiftManager()
+  @StateObject private var toiletVM = ToiletManager()
+  @StateObject private var chargerVM = ChargerManager()
   
   enum Tab {
     case map
@@ -32,12 +34,14 @@ struct ContentView: View {
         }
         .tag(Tab.map)
       ToiletView()
+            .environmentObject(toiletVM)
         .tabItem {
           Image("wc").renderingMode(.template)
           Text("화장실")
         }
         .tag(Tab.toilet)
       ChargerView()
+            .environmentObject(chargerVM)
         .tabItem {
           Image("battery_charging_full").renderingMode(.template)
           Text("급속충전기")

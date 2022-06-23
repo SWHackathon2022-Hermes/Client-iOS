@@ -12,6 +12,10 @@
 		3DCC0BC9286387D800AAB2AC /* LiftMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BC8286387D800AAB2AC /* LiftMapView.swift */; };
 		3DCC0BCB28639A7400AAB2AC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BCA28639A7400AAB2AC /* ModelData.swift */; };
 		3DCC0BCD2863A16200AAB2AC /* LiftViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BCC2863A16200AAB2AC /* LiftViewManager.swift */; };
+		3DCC0BF62864B94600AAB2AC /* ToiletManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BF52864B94600AAB2AC /* ToiletManager.swift */; };
+		3DCC0BFA2864C23400AAB2AC /* ChargerMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BF92864C23400AAB2AC /* ChargerMapView.swift */; };
+		3DCC0BFC2864C24F00AAB2AC /* ToiletMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BFB2864C24F00AAB2AC /* ToiletMapView.swift */; };
+		3DCC0BFE2864C64600AAB2AC /* ChargerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BFD2864C64600AAB2AC /* ChargerManager.swift */; };
 		6F17ABB2286359B100BF182B /* Ex+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17ABB1286359B100BF182B /* Ex+Color.swift */; };
 		6F17ABBA286363CE00BF182B /* Ex+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17ABB9286363CE00BF182B /* Ex+View.swift */; };
 		6FC89B042864392300AB9C25 /* ReportImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC89B032864392300AB9C25 /* ReportImageView.swift */; };
@@ -63,6 +67,10 @@
 		3DCC0BC8286387D800AAB2AC /* LiftMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftMapView.swift; sourceTree = "<group>"; };
 		3DCC0BCA28639A7400AAB2AC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		3DCC0BCC2863A16200AAB2AC /* LiftViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftViewManager.swift; sourceTree = "<group>"; };
+		3DCC0BF52864B94600AAB2AC /* ToiletManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletManager.swift; sourceTree = "<group>"; };
+		3DCC0BF92864C23400AAB2AC /* ChargerMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargerMapView.swift; sourceTree = "<group>"; };
+		3DCC0BFB2864C24F00AAB2AC /* ToiletMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletMapView.swift; sourceTree = "<group>"; };
+		3DCC0BFD2864C64600AAB2AC /* ChargerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargerManager.swift; sourceTree = "<group>"; };
 		6F17ABB1286359B100BF182B /* Ex+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Color.swift"; sourceTree = "<group>"; };
 		6F17ABB9286363CE00BF182B /* Ex+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+View.swift"; sourceTree = "<group>"; };
 		6FC89B032864392300AB9C25 /* ReportImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportImageView.swift; sourceTree = "<group>"; };
@@ -223,6 +231,8 @@
 				6FCCC82B2863464B00F42BCE /* Network.swift */,
 				3DCC0BCA28639A7400AAB2AC /* ModelData.swift */,
 				3DCC0BCC2863A16200AAB2AC /* LiftViewManager.swift */,
+				3DCC0BF52864B94600AAB2AC /* ToiletManager.swift */,
+				3DCC0BFD2864C64600AAB2AC /* ChargerManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -242,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				6FCCC81F286345EA00F42BCE /* ChargerView.swift */,
+				3DCC0BF92864C23400AAB2AC /* ChargerMapView.swift */,
 			);
 			path = Charger;
 			sourceTree = "<group>";
@@ -260,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				6FCCC81D286345E300F42BCE /* ToiletView.swift */,
+				3DCC0BFB2864C24F00AAB2AC /* ToiletMapView.swift */,
 			);
 			path = Toilet;
 			sourceTree = "<group>";
@@ -446,9 +458,12 @@
 				6FCCC8262863460400F42BCE /* ReportView.swift in Sources */,
 				6FC89B042864392300AB9C25 /* ReportImageView.swift in Sources */,
 				6FCCC7E92863450F00F42BCE /* ContentView.swift in Sources */,
+				3DCC0BFC2864C24F00AAB2AC /* ToiletMapView.swift in Sources */,
+				3DCC0BF62864B94600AAB2AC /* ToiletManager.swift in Sources */,
 				6FC89B122864445100AB9C25 /* ChatBotCustomTabBar.swift in Sources */,
 				6FCCC81C286345DC00F42BCE /* MapView.swift in Sources */,
 				3DCC0BC728637F3100AAB2AC /* TextBar.swift in Sources */,
+				3DCC0BFE2864C64600AAB2AC /* ChargerManager.swift in Sources */,
 				6F17ABBA286363CE00BF182B /* Ex+View.swift in Sources */,
 				6FC89B062864393A00AB9C25 /* CustomNavigationBar.swift in Sources */,
 				6FC89B1028643F7F00AB9C25 /* PresentButtonView.swift in Sources */,
@@ -457,6 +472,7 @@
 				6FFDF5B02864AB3700F1A3B4 /* BeforeReportView.swift in Sources */,
 				6FCCC7E72863450F00F42BCE /* Hermes_iOSApp.swift in Sources */,
 				6FFDF5AC2864856900F1A3B4 /* Ex+TabBar.swift in Sources */,
+				3DCC0BFA2864C23400AAB2AC /* ChargerMapView.swift in Sources */,
 				6FCCC81E286345E300F42BCE /* ToiletView.swift in Sources */,
 				6FCCC820286345EA00F42BCE /* ChargerView.swift in Sources */,
 			);
