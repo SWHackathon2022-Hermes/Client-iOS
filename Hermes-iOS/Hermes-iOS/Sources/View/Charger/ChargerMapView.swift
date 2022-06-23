@@ -15,15 +15,18 @@ struct ChargerMapView: View {
     )
     
     @EnvironmentObject private var chargerVM: ChargerManager
-    @State private var seletedPin: chargerModel = ChargerManager().chargers.first!
+    @State private var selectedPin: chargerModel = ChargerManager().chargers.first!
     
     var body: some View {
         Map(coordinateRegion: $region, annotationItems: chargerVM.chargers) { place in
                                 MapAnnotation(coordinate: place.coordinate) {
-                                    Image("Pin_charge")
+                                    Image(selectedPin.id == place.id ? "Pin_charge_selected" : "Pin_charge")
+                                        .scaleEffect(selectedPin.id == place.id ? 1 : 0.7)
+                                        .shadow(radius: selectedPin.id == place.id ? 10 : 0)
                                         .onTapGesture {
-                                            seletedPin = place
+                                            selectedPin = place
                                         }
+                                        .animation(.easeIn)
                                 }
                             }
                             .edgesIgnoringSafeArea(.all)
@@ -32,7 +35,7 @@ struct ChargerMapView: View {
             
             ZStack {
                 ForEach(chargerVM.chargers) { charger in
-                    if seletedPin.id == charger.id {
+                    if selectedPin.id == charger.id {
                         ChargerDescriptionModal(charger: charger)
                             .shadow(color: Color(hex: "48414D").opacity(0.2), radius: 9, x: 0, y: 3)
                     }
