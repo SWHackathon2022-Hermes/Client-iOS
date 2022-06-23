@@ -56,6 +56,7 @@ struct ContentView: View {
           Text("민원 등록")
         }
         .tag(Tab.report)
+        .setTabBarVisibility(isHidden: true)
     }
     .accentColor(Color(hex: "874DBC"))
   }
