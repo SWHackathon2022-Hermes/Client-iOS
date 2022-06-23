@@ -16,12 +16,16 @@ struct ReportView: View {
   var body: some View {
     ZStack {
       Color(hex: "EBEBEB").ignoresSafeArea()
-        .padding(EdgeInsets(top: 100, leading: 0, bottom: 0, trailing: 0))
+        .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
       
       // MARK: - 커스텀 네비게이션바
       VStack(spacing: 0){
         CustomNavigationBar()
-          .frame(width: 390, height: 100, alignment: .center)
+        //  .ignoresSafeArea()
+          .frame(width: 390, height: 100-47, alignment: .center)
+        LinearGradient(colors: [Color(hex: "EBEBEB"), Color(.sRGB, white: 0.75, opacity: 1)], startPoint: .bottom, endPoint: .top)
+          .frame(height: 4)
+          .opacity(1)
         
         Group {
           
