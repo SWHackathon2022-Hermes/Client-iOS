@@ -70,7 +70,6 @@
 		6FC89B0828643B4000AB9C25 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
 		6FC89B0A28643B4800AB9C25 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
 		6FC89B0C28643B5200AB9C25 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
-		6FC89B0E28643C1300AB9C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6FC89B0F28643F7F00AB9C25 /* PresentButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentButtonView.swift; sourceTree = "<group>"; };
 		6FC89B112864445100AB9C25 /* ChatBotCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotCustomTabBar.swift; sourceTree = "<group>"; };
 		6FC89B13286456CB00AB9C25 /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
@@ -153,7 +152,6 @@
 		6FCCC7E52863450F00F42BCE /* Hermes-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6FC89B0E28643C1300AB9C25 /* Info.plist */,
 				6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */,
 				6FCCC8102863454500F42BCE /* Configuration */,
 				6FCCC8112863455800F42BCE /* Sources */,
