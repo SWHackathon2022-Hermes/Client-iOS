@@ -10,7 +10,7 @@ import SwiftUI
 struct ChatBotView: View {
   
   @State private var messageText = ""
-  @State var messages: [String] = ["안녕하세요!"]
+  @State var messages: [String] = ["궁금한 것을 물어봐!"]
   
   var body: some View {
     ZStack{

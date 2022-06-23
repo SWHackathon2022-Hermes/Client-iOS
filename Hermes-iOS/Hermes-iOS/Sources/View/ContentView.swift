@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
   @State private var selection: Tab = .map
-    @StateObject private var vm = LiftManager()
-    @StateObject private var toiletVM = ToiletManager()
-    @StateObject private var chargerVM = ChargerManager()
+  @StateObject private var vm = LiftManager()
+  @StateObject private var toiletVM = ToiletManager()
+  @StateObject private var chargerVM = ChargerManager()
   
   enum Tab {
     case map
