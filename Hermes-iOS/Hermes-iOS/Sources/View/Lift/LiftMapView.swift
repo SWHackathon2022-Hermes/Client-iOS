@@ -17,8 +17,6 @@ struct LiftMapView: View {
     
     var body: some View {
         Map(coordinateRegion: $region, annotationItems: vm.lifts) { place in
-//                    MapMarker(coordinate: place.coordinate,
-//                              tint: .purple)
             MapAnnotation(coordinate: place.coordinate) {
                 Image("Pin_lift")
             }
