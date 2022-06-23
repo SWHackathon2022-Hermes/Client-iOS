@@ -8,16 +8,19 @@
 import SwiftUI
 
 struct CustomNavigationBar: View {
+  
+  @Environment(\.presentationMode) var presentationMode
+  
   var body: some View {
     ZStack{
       Color(.white)
       HStack(alignment: .bottom, spacing: 0) {
-        NavigationLink(destination: ContentView()) {
+        Button(action : {presentationMode.wrappedValue.dismiss()}) {
           Image(systemName: "chevron.left")
             .font(.custom("SF-pro", size: 20))
             .foregroundColor(Color(hex: "1F1F1F"))
             .frame(width: 24, height: 24, alignment: .center)
-            .padding(EdgeInsets(top: 60, leading: 16, bottom: 16, trailing: 0))
+            .padding(EdgeInsets(top: 0, leading: 16, bottom: 16, trailing: 0))
         }
         
         Text("민원등록")

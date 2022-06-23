@@ -93,7 +93,7 @@ struct ChatBotView: View {
         .navigationBarHidden(true)
         Spacer()
       }
-    }.edgesIgnoringSafeArea(.bottom)
+    }.edgesIgnoringSafeArea(.bottom)          //.setTabBarVisibility(isHidden: true)
   }
   
   func sendMessage(message: String) {

@@ -19,8 +19,7 @@ struct ContentView: View {
   }
   
   init() {
-  UITabBar.appearance().backgroundColor = UIColor.white
-
+    UITabBar.appearance().backgroundColor = UIColor.white
   }
   
   var body: some View {
@@ -29,7 +28,6 @@ struct ContentView: View {
         .tabItem {
           Image("map").renderingMode(.template)
           Text("지도")
-          
         }
         .tag(Tab.map)
       ToiletView()
@@ -50,13 +48,12 @@ struct ContentView: View {
           Text("리프트 위치")
         }
         .tag(Tab.lift)
-      ReportView()
+      BeforeReportView()
         .tabItem {
           Image("campaign").renderingMode(.template)
           Text("민원 등록")
         }
         .tag(Tab.report)
-        .setTabBarVisibility(isHidden: true)
     }
     .accentColor(Color(hex: "874DBC"))
   }

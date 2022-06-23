@@ -33,6 +33,8 @@
 		6FCCC824286345FB00F42BCE /* LiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC823286345FB00F42BCE /* LiftView.swift */; };
 		6FCCC8262863460400F42BCE /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC8252863460400F42BCE /* ReportView.swift */; };
 		6FCCC82C2863464B00F42BCE /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC82B2863464B00F42BCE /* Network.swift */; };
+		6FFDF5AC2864856900F1A3B4 /* Ex+TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDF5AB2864856900F1A3B4 /* Ex+TabBar.swift */; };
+		6FFDF5B02864AB3700F1A3B4 /* BeforeReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDF5AF2864AB3700F1A3B4 /* BeforeReportView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		6FCCC823286345FB00F42BCE /* LiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftView.swift; sourceTree = "<group>"; };
 		6FCCC8252863460400F42BCE /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 		6FCCC82B2863464B00F42BCE /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		6FFDF5AB2864856900F1A3B4 /* Ex+TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+TabBar.swift"; sourceTree = "<group>"; };
+		6FFDF5AF2864AB3700F1A3B4 /* BeforeReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeReportView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +264,7 @@
 				6FCCC8252863460400F42BCE /* ReportView.swift */,
 				6FC89B032864392300AB9C25 /* ReportImageView.swift */,
 				6FC89B052864393A00AB9C25 /* CustomNavigationBar.swift */,
+				6FFDF5AF2864AB3700F1A3B4 /* BeforeReportView.swift */,
 			);
 			path = Report;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			children = (
 				6F17ABB1286359B100BF182B /* Ex+Color.swift */,
 				6F17ABB9286363CE00BF182B /* Ex+View.swift */,
+				6FFDF5AB2864856900F1A3B4 /* Ex+TabBar.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -438,7 +444,9 @@
 				6FC89B1028643F7F00AB9C25 /* PresentButtonView.swift in Sources */,
 				6F17ABB2286359B100BF182B /* Ex+Color.swift in Sources */,
 				3DCC0BC32863690D00AAB2AC /* MainView.swift in Sources */,
+				6FFDF5B02864AB3700F1A3B4 /* BeforeReportView.swift in Sources */,
 				6FCCC7E72863450F00F42BCE /* Hermes_iOSApp.swift in Sources */,
+				6FFDF5AC2864856900F1A3B4 /* Ex+TabBar.swift in Sources */,
 				6FCCC81E286345E300F42BCE /* ToiletView.swift in Sources */,
 				6FCCC820286345EA00F42BCE /* ChargerView.swift in Sources */,
 			);
