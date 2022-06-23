@@ -9,10 +9,9 @@ import Foundation
 import SwiftUI
 
 extension View {
-    
-    /// 탭바 숨김 처리 여부
-    /// - Parameter isHidden:
-    /// - Returns:
+  /// 탭바 숨김 처리 여부
+  /// - Parameter isHidden:
+  /// - Returns:
   func setTabBarVisibility(isHidden : Bool) -> some View {
     background(TabBarAccessor { tabBar in
       // print(">> TabBar height: \(tabBar.bounds.height)")
@@ -20,6 +19,10 @@ extension View {
       // 혹은 높이를 변경한다던지 여러가지 설정들이 가능하다.
       tabBar.isHidden = isHidden
     })
+  }
+
+  func customTextField(color: Color = .secondary, padding: CGFloat = 3, lineWidth: CGFloat = 0.0) -> some View { // <- Default settings
+    self.modifier(TextFieldModifier(color: color, padding: padding, lineWidth: lineWidth))
   }
 }
 
@@ -55,5 +58,21 @@ struct TabBarAccessor: UIViewControllerRepresentable {
         self.callback(tabBar.tabBar)
       }
     }
+  }
+}
+
+
+// MARK: - TextField padding 조정
+struct TextFieldModifier: ViewModifier {
+  let color: Color
+  let padding: CGFloat // <- space between text and border
+  let lineWidth: CGFloat
+
+  func body(content: Content) -> some View {
+    content
+      .padding(padding)
+      .overlay(RoundedRectangle(cornerRadius: padding)
+                .stroke(color, lineWidth: lineWidth)
+      )
   }
 }

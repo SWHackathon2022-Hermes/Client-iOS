@@ -14,6 +14,14 @@
 		3DCC0BCD2863A16200AAB2AC /* LiftViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC0BCC2863A16200AAB2AC /* LiftViewManager.swift */; };
 		6F17ABB2286359B100BF182B /* Ex+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17ABB1286359B100BF182B /* Ex+Color.swift */; };
 		6F17ABBA286363CE00BF182B /* Ex+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17ABB9286363CE00BF182B /* Ex+View.swift */; };
+		6FC89B042864392300AB9C25 /* ReportImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC89B032864392300AB9C25 /* ReportImageView.swift */; };
+		6FC89B062864393A00AB9C25 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC89B052864393A00AB9C25 /* CustomNavigationBar.swift */; };
+		6FC89B0928643B4000AB9C25 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC89B0828643B4000AB9C25 /* NotoSansKR-Bold.otf */; };
+		6FC89B0B28643B4800AB9C25 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC89B0A28643B4800AB9C25 /* NotoSansKR-Medium.otf */; };
+		6FC89B0D28643B5200AB9C25 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC89B0C28643B5200AB9C25 /* NotoSansKR-Regular.otf */; };
+		6FC89B1028643F7F00AB9C25 /* PresentButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC89B0F28643F7F00AB9C25 /* PresentButtonView.swift */; };
+		6FC89B122864445100AB9C25 /* ChatBotCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC89B112864445100AB9C25 /* ChatBotCustomTabBar.swift */; };
+		6FC89B14286456CB00AB9C25 /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC89B13286456CB00AB9C25 /* BotResponse.swift */; };
 		6FCCC7E72863450F00F42BCE /* Hermes_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */; };
 		6FCCC7E92863450F00F42BCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCC7E82863450F00F42BCE /* ContentView.swift */; };
 		6FCCC7EB2863451000F42BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCCC7EA2863451000F42BCE /* Assets.xcassets */; };
@@ -55,6 +63,15 @@
 		3DCC0BCC2863A16200AAB2AC /* LiftViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftViewManager.swift; sourceTree = "<group>"; };
 		6F17ABB1286359B100BF182B /* Ex+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Color.swift"; sourceTree = "<group>"; };
 		6F17ABB9286363CE00BF182B /* Ex+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+View.swift"; sourceTree = "<group>"; };
+		6FC89B032864392300AB9C25 /* ReportImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportImageView.swift; sourceTree = "<group>"; };
+		6FC89B052864393A00AB9C25 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		6FC89B0828643B4000AB9C25 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		6FC89B0A28643B4800AB9C25 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		6FC89B0C28643B5200AB9C25 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		6FC89B0E28643C1300AB9C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6FC89B0F28643F7F00AB9C25 /* PresentButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentButtonView.swift; sourceTree = "<group>"; };
+		6FC89B112864445100AB9C25 /* ChatBotCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotCustomTabBar.swift; sourceTree = "<group>"; };
+		6FC89B13286456CB00AB9C25 /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
 		6FCCC7E32863450F00F42BCE /* Hermes-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hermes-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hermes_iOSApp.swift; sourceTree = "<group>"; };
 		6FCCC7E82863450F00F42BCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +116,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FC89B0728643B2200AB9C25 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6FC89B0828643B4000AB9C25 /* NotoSansKR-Bold.otf */,
+				6FC89B0A28643B4800AB9C25 /* NotoSansKR-Medium.otf */,
+				6FC89B0C28643B5200AB9C25 /* NotoSansKR-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		6FCCC7DA2863450F00F42BCE = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +149,7 @@
 		6FCCC7E52863450F00F42BCE /* Hermes-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6FC89B0E28643C1300AB9C25 /* Info.plist */,
 				6FCCC7E62863450F00F42BCE /* Hermes_iOSApp.swift */,
 				6FCCC8102863454500F42BCE /* Configuration */,
 				6FCCC8112863455800F42BCE /* Sources */,
@@ -157,6 +185,7 @@
 		6FCCC8102863454500F42BCE /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				6FC89B0728643B2200AB9C25 /* Fonts */,
 				6FCCC8272863461B00F42BCE /* Assets */,
 				6FCCC8282863461F00F42BCE /* Extensions */,
 			);
@@ -199,7 +228,10 @@
 		6FCCC8142863456700F42BCE /* ChatBot */ = {
 			isa = PBXGroup;
 			children = (
+				6FC89B0F28643F7F00AB9C25 /* PresentButtonView.swift */,
+				6FC89B112864445100AB9C25 /* ChatBotCustomTabBar.swift */,
 				6FCCC821286345F400F42BCE /* ChatBotView.swift */,
+				6FC89B13286456CB00AB9C25 /* BotResponse.swift */,
 			);
 			path = ChatBot;
 			sourceTree = "<group>";
@@ -234,6 +266,8 @@
 			isa = PBXGroup;
 			children = (
 				6FCCC8252863460400F42BCE /* ReportView.swift */,
+				6FC89B032864392300AB9C25 /* ReportImageView.swift */,
+				6FC89B052864393A00AB9C25 /* CustomNavigationBar.swift */,
 			);
 			path = Report;
 			sourceTree = "<group>";
@@ -369,8 +403,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC89B0B28643B4800AB9C25 /* NotoSansKR-Medium.otf in Resources */,
 				6FCCC7EE2863451000F42BCE /* Preview Assets.xcassets in Resources */,
+				6FC89B0928643B4000AB9C25 /* NotoSansKR-Bold.otf in Resources */,
 				6FCCC7EB2863451000F42BCE /* Assets.xcassets in Resources */,
+				6FC89B0D28643B5200AB9C25 /* NotoSansKR-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,13 +436,18 @@
 				6FCCC82C2863464B00F42BCE /* Network.swift in Sources */,
 				3DCC0BCB28639A7400AAB2AC /* ModelData.swift in Sources */,
 				6FCCC822286345F400F42BCE /* ChatBotView.swift in Sources */,
+				6FC89B14286456CB00AB9C25 /* BotResponse.swift in Sources */,
 				6FCCC824286345FB00F42BCE /* LiftView.swift in Sources */,
 				3DCC0BCD2863A16200AAB2AC /* LiftViewManager.swift in Sources */,
 				6FCCC8262863460400F42BCE /* ReportView.swift in Sources */,
+				6FC89B042864392300AB9C25 /* ReportImageView.swift in Sources */,
 				6FCCC7E92863450F00F42BCE /* ContentView.swift in Sources */,
+				6FC89B122864445100AB9C25 /* ChatBotCustomTabBar.swift in Sources */,
 				6FCCC81C286345DC00F42BCE /* MapView.swift in Sources */,
 				3DCC0BC728637F3100AAB2AC /* TextBar.swift in Sources */,
 				6F17ABBA286363CE00BF182B /* Ex+View.swift in Sources */,
+				6FC89B062864393A00AB9C25 /* CustomNavigationBar.swift in Sources */,
+				6FC89B1028643F7F00AB9C25 /* PresentButtonView.swift in Sources */,
 				6F17ABB2286359B100BF182B /* Ex+Color.swift in Sources */,
 				3DCC0BC32863690D00AAB2AC /* MainView.swift in Sources */,
 				6FCCC7E72863450F00F42BCE /* Hermes_iOSApp.swift in Sources */,
