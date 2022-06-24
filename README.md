@@ -9,6 +9,8 @@
 
 <br><img width=1230 src="https://user-images.githubusercontent.com/76610340/175432388-99bbf4b4-3586-4faa-b0f0-07d0dd2f1c88.png">
 
+<br>
+
 ## 🧑🏻‍💻 Hermes Team
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -36,8 +38,9 @@
 
 <br>
 
-<br>
+
 ## ⚙️ 동작 방식(프로세스)
+
 <details>
 <summary>플로우 차트(IA) 보기</summary>
 <div markdown="1">
@@ -84,21 +87,10 @@ iOS 13이상
 필수 입력 항목이 입력되지 않았을 때 등록이 거부됩니다.|
 |검색을 대신 해주는 챗봇 |<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="220">||
 
-## <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> Hermes Notion
 
 
 <br>
 
-## 🌱 동작 방식(프로세스)
-
-<details>
-<summary>플로우 차트(IA) 보기</summary>
-<div markdown="1">
-<img width="996" alt="image" src="https://user-images.githubusercontent.com/76610340/175439212-a460c1ba-bcd0-4001-b772-99e026b172b2.png">
- </div>
-</details>
-
-<br>
 
 ## 📱 테스트 환경
 
@@ -164,7 +156,7 @@ CoreSimulator 802.6.1
 ## 📌 Commit Convention
 
 <details>
-<summary>폴더링 컨벤션 보기</summary>
+<summary> 컨벤션 보기</summary>
 <div markdown="1">
   
 ```
@@ -210,12 +202,40 @@ CoreSimulator 802.6.1
 - 브랜치는 각 `feat/이슈번호-큰기능명/세부기능명`으로 생성합니다.
 - ex. feat/#21-MapView/UI
 
+
+
+
+## 👩‍👩‍👧‍👦 참가자 코멘트
+<details>
+<summary> 참고자료 보기</summary>
+<div markdown="1">
+  > swift 참고자료
+  URLSession : https://developer.apple.com/documentation/foundation/urlsession/
+  JSONDecoder : https://developer.apple.com/documentation/foundation/jsondecoder/
+  MapKit : https://developer.apple.com/documentation/mapkit/
+  SwiftUI : https://developer.apple.com/xcode/swiftui/
+  
+  > 공공데이터 정보
+  전동휠체어 급속충전기 운영 정보(서울교통공사): https://www.data.go.kr/data/15085994/fileData.do#/tab-layer-openapi
+  서울 지하철 리프트 위치(서울열린데이터광장): https://data.seoul.go.kr/dataList/OA-21211/S/1/datasetView.
+  수인선 장애인 화장실 위치(한국철도시설공단): https://www.data.go.kr/data/15041692/openapi.do
+  </div>
+</details>
 <br>
 
-### 👉 [Hermes 영상 Youtube 바로가기](https://www.)
+
+## 👩‍👩‍👧‍👦 참가자 코멘트
+- 정승균 :
+- 임주민 : 
+- 김나연 :
+- 유나경 :
+- 최유진 : 
+
+
+### <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> [Hermes 영상 Youtube 바로가기](https://www.)
 
 <br>
 
-### 👉 [Hermes 문서 Notion 바로가기](https://www.notion.so/Hermes-55dde0987fad40d0a0648eedcf63b14e)
+### <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> [Hermes 문서 Notion 바로가기](https://www.notion.so/Hermes-55dde0987fad40d0a0648eedcf63b14e)
 
 
