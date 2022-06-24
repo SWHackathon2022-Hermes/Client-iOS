@@ -16,11 +16,11 @@
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />대구가톨릭대학교 정승균</td>
-    <td align="center"><a href="https://github.com/jumining"><img src="https://user-images.githubusercontent.com/76610340/175431826-3d357d52-febd-4bcd-bce6-5e4f60802a51.png" width="200px;" alt=""/><br /><br />인하대학교 임주민</a></td>
-       <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />대구가톨릭대학교 </td>
-          <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />대구가톨릭대학교 </td>
-             <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435986-1ea866a3-7ac7-474a-81ed-ff12d78d8759.png" width="200px;" alt=""/><br />숭실대학교 </td>
+    <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />대구가톨릭대학교<br />정승균</td>
+    <td align="center"><a href="https://github.com/jumining"><img src="https://user-images.githubusercontent.com/76610340/175436187-bc4d8810-87ac-4638-b13d-ecdde80ad404.png" width="200px;" alt=""/><br /><br />인하대학교<br />임주민</a></td>
+       <td align="center"><a href="https://github.com/NayounK1m"><img src="https://user-images.githubusercontent.com/76610340/175436205-453aeefb-2fa5-4e01-825a-b5201cff2f71.png" width="200px;" alt=""/><br />우송대학교<br />김나연</td>
+          <td align="center"><a href="https://github.com/yujin37"><img src="https://user-images.githubusercontent.com/76610340/175436235-f5331a3f-88d4-4905-bbdc-4b445ec483ea.png" width="200px;" alt=""/><br />상명대학교<br />최유진</td>
+             <td align="center"><img src="https://user-images.githubusercontent.com/76610340/175435986-1ea866a3-7ac7-474a-81ed-ff12d78d8759.png" width="200px;" alt=""/><br />숭실대학교<br />유나경 </td>
   </tr>
 </table>
 
