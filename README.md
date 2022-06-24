@@ -75,11 +75,15 @@ iOS 13이상
 
 ## 🧑🏻‍💻 핵심 기능 구현 설명
 
-|기능|전동휠체어 급속충전기 위치 안내|지하철 휠체어 리프트 위치 안내|장애인 화장실 위치 안내|휠체어가 가기 힘든 길 민원 등록|검색을 대신 해주는 챗봇|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|스크린샷|<img src="https://user-images.githubusercontent.com/76610340/175446345-246b08c5-06b5-4ac7-b00e-4f206c33d1cf.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175435086-1884ae8d-dd26-4b53-a4ce-3c713f68306e.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175437023-821258fb-b8e4-4057-a548-fc2fe719c9a2.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="190">|
-|설명|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|현재 위치 정보, 민원 카테고리, 상세 주소, 민원 내용을 입력한 뒤, 첨부파일에 핸드폰의 사진을 올려서 등록합니다. 필수 입력 항목이 입력되지 않았을 때 등록이 거부됩니다.|파이썬으로 구현된 챗봇은 사용자의 메세지에 맞는 대답을 합니다.|
+|기능|전동휠체어 급속충전기 위치 안내|지하철 휠체어 리프트 위치 안내|장애인 화장실 위치 안내|
+|:--:|:--:|:--:|:--:|
+|스크린샷|<img src="https://user-images.githubusercontent.com/76610340/175446345-246b08c5-06b5-4ac7-b00e-4f206c33d1cf.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175435086-1884ae8d-dd26-4b53-a4ce-3c713f68306e.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175437023-821258fb-b8e4-4057-a548-fc2fe719c9a2.gif" width="190">|
+|설명|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|
 
+|기능|휠체어가 가기 힘든 길 민원 등록|검색을 대신 해주는 챗봇|
+|:--:|:--:|
+|스크린샷|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="190">|
+|설명|현재 위치 정보, 민원 카테고리, 상세 주소, 민원 내용을 입력한 뒤, 첨부파일에 핸드폰의 사진을 올려서 등록합니다. 필수 입력 항목이 입력되지 않았을 때 등록이 거부됩니다.|파이썬으로 구현된 챗봇은 사용자의 메세지에 맞는 대답을 합니다.|
 <br>
 
 
