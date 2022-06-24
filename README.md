@@ -1,7 +1,7 @@
 # <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> Hermes-iOS
 
-> **SW중심대학 공동해커톤 2022**  
-> **프로젝트 기간 : 2022.06.24~ 2022.06.24**  
+> **SW중심대학 공동해커톤 2022(디지털전환을 이끄는 힘, 소프트웨어)**  
+> **프로젝트 기간 : 2022.06.22(수)~ 2022.06.24(금)**  
 > 
 > **휠체어 사용자를 위한 외출 보조 앱**  
 >
@@ -30,7 +30,7 @@
 
 <br>
 
-## 핵심 기능 구현 설명
+## 🧑🏻‍💻 핵심 기능 구현 설명
 |기능|스크린샷|
 |:--:|:--:|
 |전동휠체어 급속충전기 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435097-21b44c7a-196f-412f-b632-67025a512a29.gif" width="200">|
@@ -45,7 +45,7 @@
 
 <br>
 
-## Task분배
+## 🧑🏻‍💻 Task분배
 
 | 기능 | 개발 여부 | 담당자 |
 |:----------|:----------:|:----:|
@@ -59,7 +59,7 @@
 <br>
 
 
-## Foldering Convention
+## 📌 Foldering Convention
 <details>
 <summary>폴더링 컨벤션 보기</summary>
 <div markdown="1">
@@ -96,7 +96,7 @@
 <br>
 
 
-## Commit Convention
+## 📌 Commit Convention
 <details>
 <summary>폴더링 컨벤션 보기</summary>
 <div markdown="1">
@@ -118,7 +118,7 @@
 </details>
 <br>
 
-## 깃 사용 전략
+## 📌 깃 사용 전략
 > Issue -> 브랜치 생성 -> Pull받고 작업 -> Commit -> Pull -> Push -> PR -> Merge
 
 0. 새로운 작업이 진행 전, Pull을 반드시 진행합니다.
