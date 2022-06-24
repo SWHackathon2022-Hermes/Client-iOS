@@ -82,10 +82,12 @@ iOS 13이상
 
 <br>
 
-|기능|휠체어가 가기 힘든 길 민원 등록|검색을 대신 해주는 챗봇|
-|:--:|:--:|:--:|
-|스크린샷|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="190">|
-|설명|현재 위치 정보, 민원 카테고리, 상세 주소, 민원 내용을 입력한 뒤, 첨부파일에 핸드폰의 사진을 올려서 등록합니다. 필수 입력 항목이 입력되지 않았을 때 등록이 거부됩니다.|파이썬으로 구현된 챗봇은 사용자의 메세지에 맞는 대답을 합니다.|
+|기능|휠체어가 가기 힘든 길 민원 등록|검색을 대신 해주는 챗봇|기본 지도|
+|:--:|:--:|:--:|:--:|
+|스크린샷|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175447124-64e73691-fc87-4331-abe1-060ddbc381d9.png" width="190">|
+|설명|현재 위치 정보, 민원 카테고리, 상세 주소, 민원 내용을 입력한 뒤, 첨부파일에 핸드폰의 사진을 올려서 등록합니다. 필수 입력 항목이 입력되지 않았을 때 등록이 거부됩니다.|파이썬으로 구현된 챗봇은 사용자의 메세지에 맞는 대답을 합니다.|검색바와 챗봇캐릭터가 나오는 기본 지도입니다.|
+
+
 <br>
 
 
