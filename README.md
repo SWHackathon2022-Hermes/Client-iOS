@@ -16,35 +16,96 @@
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />대구가톨릭대학교<br />정승균<br />iOS</td>
-    <td align="center"><a href="https://github.com/jumining"><img src="https://user-images.githubusercontent.com/76610340/175436187-bc4d8810-87ac-4638-b13d-ecdde80ad404.png" width="200px;" alt=""/><br />인하대학교<br />임주민<br />iOS</td>
-  </tr>
-  </table>
-  <table>
-    <tr>
-  <td align="center"><a href="https://github.com/NayounK1m"><img src="https://user-images.githubusercontent.com/76610340/175436205-453aeefb-2fa5-4e01-825a-b5201cff2f71.png" width="200px;" alt=""/><br />우송대학교<br />김나연<br />back-end</td>
-          <td align="center"><a href="https://github.com/yujin37"><img src="https://user-images.githubusercontent.com/76610340/175436235-f5331a3f-88d4-4905-bbdc-4b445ec483ea.png" width="200px;" alt=""/><br />상명대학교<br />최유진<br />AI</td>
-             <td align="center"><img src="https://user-images.githubusercontent.com/76610340/175435986-1ea866a3-7ac7-474a-81ed-ff12d78d8759.png" width="200px;" alt=""/><br />숭실대학교<br />유나경<br />Designer</td>
+    <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />정승균<br />(iOS Developer)</td>
+    <td align="center"><a href="https://github.com/jumining"><img src="https://user-images.githubusercontent.com/76610340/175436187-bc4d8810-87ac-4638-b13d-ecdde80ad404.png" width="200px;" alt=""/><br />임주민<br />(iOS Developer)</td>
+  <td align="center"><a href="https://github.com/NayounK1m"><img src="https://user-images.githubusercontent.com/76610340/175436205-453aeefb-2fa5-4e01-825a-b5201cff2f71.png" width="200px;" alt=""/><br />김나연<br />(BackEnd Developer)</td>
+          <td align="center"><a href="https://github.com/yujin37"><img src="https://user-images.githubusercontent.com/76610340/175436235-f5331a3f-88d4-4905-bbdc-4b445ec483ea.png" width="200px;" alt=""/><br />최유진<br />(AI Developer)</td>
+             <td align="center"><img src="https://user-images.githubusercontent.com/76610340/175435986-1ea866a3-7ac7-474a-81ed-ff12d78d8759.png" width="200px;" alt=""/><br />숭실대학교<br />유나경<br />(UX/UI Designer)</td>
         </tr>
 </table>
 
 <br>
 
-## 🧑🏻‍💻 핵심 기능 구현 설명
-|기능|스크린샷|
-|:--:|:--:|
-|전동휠체어 급속충전기 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435097-21b44c7a-196f-412f-b632-67025a512a29.gif" width="200">|
-|지하철 휠체어 리프트 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435086-1884ae8d-dd26-4b53-a4ce-3c713f68306e.gif" width="200">|
-|장애인 화장실 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175437023-821258fb-b8e4-4057-a548-fc2fe719c9a2.gif" width="200">|
-|휠체어가 가기 힘든 길 민원 등록|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="200">|
-|검색을 대신 해주는 챗봇 |<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="200">|
-
-## <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> Hermes Notion
-
-### 👉 [Hermes Notion 바로가기](https://www.notion.so/Hermes-55dde0987fad40d0a0648eedcf63b14e)
+<br>
+## 🌱 프로젝트 배경/목표
+1) 전동휠체어 배터리가 없어져서 멈추면 혼자 있을때 아예 움직일 수가 없기 때문에 119나 경찰을 부르는 경우가 있어, 미리 가까운 급속충전기 위치를 안내해주는 것이 목표입니다. 
+2) 지하철을 이용하러 갈 때, 휠체어로 이동할 수 있는 길이 한정적이여서 지하철 내에 있는 휠체어 리프트의 위치를 안내해서 이용에 도움을 주는 것이 목표입니다.
+3) 지하철 내에 휠체어 사용자들이 이용할 수 있는 화장실의 위치를 안내해 이용에 도움을 주는 것이 목표입니다.
+4) 휠체어를 이용하다보면 고르지 않은 길과 타일에 바퀴가 잘 빠져서 혼자서 빠져나가기 힘들거나, 휠체어가 걸려 뒤로 넘어가서 위험한 일이 생기고는 합니다. 보도는 모든 사람이 이용하는 공공재로서 누구나 차별 받지 않고 이용할 수 있어야 한다는 점을 감안할 때, 해당 부분에서 도로의 타일이 튀어나와있거나 바퀴가 빠질 정도의 홈이 있는 등의 유형(type)을 선택 및 자세한 내용 작성과 사진 촬영 그리고 어디인지 위치 등록을 해서 불편을 해소해 주는 것이 목표입니다.
 
 <br>
 
+<br>
+## ⚙️ 동작 방식(프로세스)
+<details>
+<summary>플로우 차트(IA) 보기</summary>
+<div markdown="1">
+<img width="996" alt="image" src="https://user-images.githubusercontent.com/76610340/175439212-a460c1ba-bcd0-4001-b772-99e026b172b2.png">
+ </div>
+</details>
+<br>
+
+<details>
+<summary>기능 명세서 보기</summary>
+<div markdown="1">
+<img width="996" alt="image" src="https://user-images.githubusercontent.com/76610340/175439244-333a71c2-7456-48ad-8d43-a88a620afe2c.png">
+</div>
+</details>
+<br>
+
+
+<br>
+
+<br>
+## 💻 개발/배포 환경
+XCode Version 13.4.1
+iOS 13이상
+
+``` 
+클라이언트 개발 플랫폼 : iOS
+클라이언트 개발 환경 : XCode
+클라이언트 개발 언어 : Swift
+클라이언트 개발 프레임워크 : SwiftUI
+사용한 swift 디자인패턴 : MVVM
+```
+
+<br>
+
+## 🧑🏻‍💻 핵심 기능 구현 설명
+|기능|스크린샷||
+|:--:|:--:|:--:|
+|전동휠체어 급속충전기 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435097-21b44c7a-196f-412f-b632-67025a512a29.gif" width="200">|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, 
+JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|
+|지하철 휠체어 리프트 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435086-1884ae8d-dd26-4b53-a4ce-3c713f68306e.gif" width="200">|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, 
+JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|
+|장애인 화장실 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175437023-821258fb-b8e4-4057-a548-fc2fe719c9a2.gif" width="200">|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, 
+JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|
+|휠체어가 가기 힘든 길 민원 등록|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="200">|현재 위치 정보, 민원 카테고리, 상세 주소, 민원 내용을 입력한 뒤, 첨부파일에 핸드폰의 사진을 올려서 등록한다.
+필수 입력 항목이 입력되지 않았을 때 등록이 거부됩니다.|
+|검색을 대신 해주는 챗봇 |<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="200">||
+
+## <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> Hermes Notion
+
+
+<br>
+## 🌱 동작 방식(프로세스)
+<details>
+<summary>플로우 차트(IA) 보기</summary>
+<div markdown="1">
+<img width="996" alt="image" src="https://user-images.githubusercontent.com/76610340/175439212-a460c1ba-bcd0-4001-b772-99e026b172b2.png">
+ </div>
+</details>
+
+<br>
+## 📱 테스트 환경
+
+```
+Simulator Version 13.4.1 (977.2)
+SimulatorKit 618
+CoreSimulator 802.6.1
+```
+
+<br>
 ## 🧑🏻‍💻 Task분배
 
 | 기능 | 개발 여부 | 담당자 |
@@ -57,7 +118,6 @@
 
 
 <br>
-
 
 ## 📌 Foldering Convention
 <details>
@@ -143,5 +203,11 @@
 
 - 브랜치는 각 `feat/이슈번호-큰기능명/세부기능명`으로 생성합니다.
 - ex. feat/#21-MapView/UI
+
+<br>
+
+### 👉 [Hermes 영상 Youtube 바로가기](https://www.)
+<br>
+### 👉 [Hermes 문서 Notion 바로가기](https://www.notion.so/Hermes-55dde0987fad40d0a0648eedcf63b14e)
 
 
