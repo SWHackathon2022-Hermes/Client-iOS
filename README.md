@@ -4,7 +4,6 @@
 > **프로젝트 기간 : 2022.06.22(수)~ 2022.06.24(금)**  
 > 
 > **휠체어 사용자를 위한 외출 보조 앱**  
->
 > **(SwiftUI 사용)**  
 
 <br><img width=1230 src="https://user-images.githubusercontent.com/76610340/175432388-99bbf4b4-3586-4faa-b0f0-07d0dd2f1c88.png">
@@ -16,6 +15,10 @@
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+
+> **Hermes는 여행자를 주관하는 신입니다.
+휠체어 사용자도 어디든 여행을 떠날 수 있는 여행자가 되길 바라며, 해당 어플이 휠체어 사용자를 위한 사용자의 전령이자, 사용자의 심부름꾼이 되길 바라는 마음으로 임시로 지은 이름입니다.**
+
 <table>
   <tr>
     <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />정승균<br />(iOS Developer)</td>
@@ -82,11 +85,10 @@ iOS 13이상
 
 <br>
 
-|기능|휠체어가 가기 힘든 길 민원 등록|검색을 대신 해주는 챗봇|기본 지도|
-|:--:|:--:|:--:|:--:|
-|스크린샷|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175447124-64e73691-fc87-4331-abe1-060ddbc381d9.png" width="190">|
-|설명|현재 위치 정보, 민원 카테고리, 상세 주소, 민원 내용을 입력한 뒤, 첨부파일에 핸드폰의 사진을 올려서 등록합니다. 필수 입력 항목이 입력되지 않았을 때 등록이 거부됩니다.|파이썬으로 구현된 챗봇은 사용자의 메세지에 맞는 대답을 합니다.|검색바와 챗봇캐릭터가 나오는 기본 지도입니다.|
-
+|기능|휠체어가 가기 힘든 길 민원 등록|검색을 대신 해주는 챗봇|
+|:--:|:--:|:--:|
+|스크린샷|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="190">|<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="190">|
+|설명|현재 위치, 민원 유형, 상세 주소, 내용을 입력한 뒤에 첨부파일에 사진을 올려서 민원을 등록합니다.|파이썬으로 구현된 AI챗봇은 사용자의 메세지에 맞는 대답을 보냄으로써 더 편한 서비스 이용을 돕습니다.|
 
 <br>
 
@@ -209,16 +211,18 @@ CoreSimulator 802.6.1
 <details>
 <summary> 참고자료 보기</summary>
 <div markdown="1">
-  > swift 참고자료
+  
+  `swift 참고자료`
   URLSession : https://developer.apple.com/documentation/foundation/urlsession/
   JSONDecoder : https://developer.apple.com/documentation/foundation/jsondecoder/
   MapKit : https://developer.apple.com/documentation/mapkit/
   SwiftUI : https://developer.apple.com/xcode/swiftui/
   
-  > 공공데이터 정보
+  `공공데이터 정보`
   전동휠체어 급속충전기 운영 정보(서울교통공사): https://www.data.go.kr/data/15085994/fileData.do#/tab-layer-openapi
   서울 지하철 리프트 위치(서울열린데이터광장): https://data.seoul.go.kr/dataList/OA-21211/S/1/datasetView.
   수인선 장애인 화장실 위치(한국철도시설공단): https://www.data.go.kr/data/15041692/openapi.do
+ 
   </div>
 </details>
 <br>
@@ -230,7 +234,7 @@ CoreSimulator 802.6.1
 - 김나연 :
 - 유나경 :
 - 최유진 : 
-- 
+
 <br>
 
 ### <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> [Hermes 영상 Youtube 바로가기](https://www.)
