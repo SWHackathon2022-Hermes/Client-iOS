@@ -4,20 +4,23 @@
 > **프로젝트 기간 : 2022.06.24~ 2022.06.24**  
 > 
 > **휠체어 사용자를 위한 외출 보조 앱**  
+>
+> **사용언어: SwiftUI**  
 
 <br><img width=1280 src="https://user-images.githubusercontent.com/76610340/175432388-99bbf4b4-3586-4faa-b0f0-07d0dd2f1c88.png">
 
-
-
-## 🧑🏻‍💻 Hermes iOS Developers
+## 🧑🏻‍💻 Hermes Team
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175431797-23e4bad8-b642-4ac4-8023-a77a81de3834.png" width="150px;" alt=""/><br /><titleb><b>dlwns33</b></titleb></a><br /><a href="https://github.com/TeamFILL-IN/Fill-iOS/commits?author=dlwns33" title="Code">📱<br />대구가톨릭대학교 </a></td>
-    <td align="center"><a href="https://github.com/jumining"><img src="https://user-images.githubusercontent.com/76610340/175431826-3d357d52-febd-4bcd-bce6-5e4f60802a51.png" width="220px;" alt=""/><br /><titleb><b>jumining</b></titleb></a><br /><a href="https://github.com/TeamFILL-IN/Fill-iOS/commits?author=jumining" title="Code">📱<br />인하대학교 임주민</a></td>
+    <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />대구가톨릭대학교 정승균</td>
+    <td align="center"><a href="https://github.com/jumining"><img src="https://user-images.githubusercontent.com/76610340/175431826-3d357d52-febd-4bcd-bce6-5e4f60802a51.png" width="200px;" alt=""/><br /><br />인하대학교 임주민</a></td>
+       <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />대구가톨릭대학교 </td>
+          <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />대구가톨릭대학교 </td>
+             <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435986-1ea866a3-7ac7-474a-81ed-ff12d78d8759.png" width="200px;" alt=""/><br />숭실대학교 </td>
   </tr>
 </table>
 
@@ -26,11 +29,11 @@
 ## 핵심 기능 구현 설명
 |기능|스크린샷|
 |:--:|:--:|
-|전동휠체어 급속충전기 위치 안내|<img src="" width="250">|
-|지하철 휠체어 리프트 위치 안내|<img src="" width="250">|
-|장애인 화장실 위치 안내|<img src="" width="250|
-|휠체어가 가기 힘든 길 민원 등록|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="250">|
-|검색을 대신 해주는 챗봇 |<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="250">|
+|전동휠체어 급속충전기 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435097-21b44c7a-196f-412f-b632-67025a512a29.gif" width="200">|
+|지하철 휠체어 리프트 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435086-1884ae8d-dd26-4b53-a4ce-3c713f68306e.gif" width="200">|
+|장애인 화장실 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435124-a524ab4c-3c95-4484-a983-cc587ba2843f.gif" width="200|
+|휠체어가 가기 힘든 길 민원 등록|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="200">|
+|검색을 대신 해주는 챗봇 |<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="200">|
 
 
 ## Foldering Convention
@@ -74,7 +77,6 @@
 
 | 기능 | 개발 여부 | 담당자 |
 |:----------|:----------:|:----:|
-| MainMap | ✅ | 승균 |
 | LiftMap | ✅ | 승균 |
 | ToiletMap | ✅ | 승균 |
 | ChargerMap | ✅ | 승균 |
