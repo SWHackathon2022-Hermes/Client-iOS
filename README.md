@@ -27,6 +27,7 @@
 <br>
 
 <br>
+
 ## 🌱 프로젝트 배경/목표
 1) 전동휠체어 배터리가 없어져서 멈추면 혼자 있을때 아예 움직일 수가 없기 때문에 119나 경찰을 부르는 경우가 있어, 미리 가까운 급속충전기 위치를 안내해주는 것이 목표입니다. 
 2) 지하철을 이용하러 갈 때, 휠체어로 이동할 수 있는 길이 한정적이여서 지하철 내에 있는 휠체어 리프트의 위치를 안내해서 이용에 도움을 주는 것이 목표입니다.
@@ -57,6 +58,7 @@
 <br>
 
 <br>
+
 ## 💻 개발/배포 환경
 XCode Version 13.4.1
 iOS 13이상
@@ -72,23 +74,23 @@ iOS 13이상
 <br>
 
 ## 🧑🏻‍💻 핵심 기능 구현 설명
+
 |기능|스크린샷||
 |:--:|:--:|:--:|
-|전동휠체어 급속충전기 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435097-21b44c7a-196f-412f-b632-67025a512a29.gif" width="200">|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, 
-JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|
-|지하철 휠체어 리프트 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435086-1884ae8d-dd26-4b53-a4ce-3c713f68306e.gif" width="200">|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, 
-JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|
-|장애인 화장실 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175437023-821258fb-b8e4-4057-a548-fc2fe719c9a2.gif" width="200">|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, 
-JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|
-|휠체어가 가기 힘든 길 민원 등록|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="200">|현재 위치 정보, 민원 카테고리, 상세 주소, 민원 내용을 입력한 뒤, 첨부파일에 핸드폰의 사진을 올려서 등록한다.
+|전동휠체어 급속충전기 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435097-21b44c7a-196f-412f-b632-67025a512a29.gif" width="220">|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|
+|지하철 휠체어 리프트 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435086-1884ae8d-dd26-4b53-a4ce-3c713f68306e.gif" width="220">|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|
+|장애인 화장실 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175437023-821258fb-b8e4-4057-a548-fc2fe719c9a2.gif" width="220">|MapKit 프레임워크 사용, 공공데이터 API를 URLSession을 활용하여 REST API 통신하여, JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 준수하는 구조체에 저장하여 활용하였습니다.|
+|휠체어가 가기 힘든 길 민원 등록|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="220">|현재 위치 정보, 민원 카테고리, 상세 주소, 민원 내용을 입력한 뒤, 첨부파일에 핸드폰의 사진을 올려서 등록한다.
 필수 입력 항목이 입력되지 않았을 때 등록이 거부됩니다.|
-|검색을 대신 해주는 챗봇 |<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="200">||
+|검색을 대신 해주는 챗봇 |<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="220">||
 
 ## <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> Hermes Notion
 
 
 <br>
+
 ## 🌱 동작 방식(프로세스)
+
 <details>
 <summary>플로우 차트(IA) 보기</summary>
 <div markdown="1">
@@ -97,6 +99,7 @@ JSON 형식의 데이터를 JSONDecoder로 파싱하여 Codable 프로토콜을 
 </details>
 
 <br>
+
 ## 📱 테스트 환경
 
 ```
@@ -106,6 +109,7 @@ CoreSimulator 802.6.1
 ```
 
 <br>
+
 ## 🧑🏻‍💻 Task분배
 
 | 기능 | 개발 여부 | 담당자 |
@@ -120,6 +124,7 @@ CoreSimulator 802.6.1
 <br>
 
 ## 📌 Foldering Convention
+
 <details>
 <summary>폴더링 컨벤션 보기</summary>
 <div markdown="1">
@@ -157,6 +162,7 @@ CoreSimulator 802.6.1
 
 
 ## 📌 Commit Convention
+
 <details>
 <summary>폴더링 컨벤션 보기</summary>
 <div markdown="1">
@@ -207,7 +213,9 @@ CoreSimulator 802.6.1
 <br>
 
 ### 👉 [Hermes 영상 Youtube 바로가기](https://www.)
+
 <br>
+
 ### 👉 [Hermes 문서 Notion 바로가기](https://www.notion.so/Hermes-55dde0987fad40d0a0648eedcf63b14e)
 
 
