@@ -5,9 +5,9 @@
 > 
 > **휠체어 사용자를 위한 외출 보조 앱**  
 >
-> **SwiftUI로 **  
+> **(SwiftUI 사용)**  
 
-<br><img width=1280 src="https://user-images.githubusercontent.com/76610340/175432388-99bbf4b4-3586-4faa-b0f0-07d0dd2f1c88.png">
+<br><img width=1230 src="https://user-images.githubusercontent.com/76610340/175432388-99bbf4b4-3586-4faa-b0f0-07d0dd2f1c88.png">
 
 ## 🧑🏻‍💻 Hermes Team
 
