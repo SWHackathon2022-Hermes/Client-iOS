@@ -23,6 +23,16 @@
 
 <br>
 
+## 핵심 기능 구현 설명
+|기능|스크린샷|
+|:--:|:--:|
+|전동휠체어 급속충전기 위치 안내|<img src="" width="250">|
+|지하철 휠체어 리프트 위치 안내|<img src="" width="250">|
+|장애인 화장실 위치 안내|<img src="" width="250|
+|휠체어가 가기 힘든 길 민원 등록|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="250">|
+|검색을 대신 해주는 챗봇 |<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="250">|
+
+
 ## Foldering Convention
 <details>
 <summary>폴더링 컨벤션 보기</summary>
@@ -72,8 +82,24 @@
 | Report | ✅ | 주민 |
 
 
+<br>
 
-
+## Commit Convention
+<details>
+<summary>폴더링 컨벤션 보기</summary>
+<div markdown="1">
+[CHORE] 코드 수정, 내부 파일 수정, 주석
+[FEAT] 새로운 기능 구현
+[ADD] Feat 이외의 부수적인 코드 추가, 라이브러리 추가, 새로운 파일 생성 시, 에셋 추가
+[FIX] 버그, 오류 해결
+[DEL] 쓸모없는 코드 삭제
+[DOCS] README나 WIKI 등의 문서 개정
+[MOVE] 프로젝트 내 파일이나 코드의 이동
+[RENAME] 파일 이름 변경이 있을 때 사용합니다
+[REFACTOR] 전면 수정이 있을 때 사용합니다
+[INIT] 프로젝트 생성
+  </div>
+</details>
 <br>
 
 
