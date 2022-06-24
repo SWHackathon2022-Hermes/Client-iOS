@@ -16,11 +16,11 @@
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />대구가톨릭대학교<br />정승균</td>
-    <td align="center"><a href="https://github.com/jumining"><img src="https://user-images.githubusercontent.com/76610340/175436187-bc4d8810-87ac-4638-b13d-ecdde80ad404.png" width="200px;" alt=""/><br />인하대학교<br />임주민</td>
-       <td align="center"><a href="https://github.com/NayounK1m"><img src="https://user-images.githubusercontent.com/76610340/175436205-453aeefb-2fa5-4e01-825a-b5201cff2f71.png" width="200px;" alt=""/><br />우송대학교<br />김나연</td>
-          <td align="center"><a href="https://github.com/yujin37"><img src="https://user-images.githubusercontent.com/76610340/175436235-f5331a3f-88d4-4905-bbdc-4b445ec483ea.png" width="200px;" alt=""/><br />상명대학교<br />최유진</td>
-             <td align="center"><img src="https://user-images.githubusercontent.com/76610340/175435986-1ea866a3-7ac7-474a-81ed-ff12d78d8759.png" width="200px;" alt=""/><br />숭실대학교<br />유나경 </td>
+    <td align="center"><a href="https://github.com/seunggyun-jeong"><img src="https://user-images.githubusercontent.com/76610340/175435864-1f73aef9-ec25-4e9b-bf0e-61d3a8a26d3e.png" width="200px;" alt=""/><br />대구가톨릭대학교<br />정승균<br />iOS</td>
+    <td align="center"><a href="https://github.com/jumining"><img src="https://user-images.githubusercontent.com/76610340/175436187-bc4d8810-87ac-4638-b13d-ecdde80ad404.png" width="200px;" alt=""/><br />인하대학교<br />임주민<br />iOS</td>
+       <td align="center"><a href="https://github.com/NayounK1m"><img src="https://user-images.githubusercontent.com/76610340/175436205-453aeefb-2fa5-4e01-825a-b5201cff2f71.png" width="200px;" alt=""/><br />우송대학교<br />김나연<br />back-end</td>
+          <td align="center"><a href="https://github.com/yujin37"><img src="https://user-images.githubusercontent.com/76610340/175436235-f5331a3f-88d4-4905-bbdc-4b445ec483ea.png" width="200px;" alt=""/><br />상명대학교<br />최유진<br />AI</td>
+             <td align="center"><img src="https://user-images.githubusercontent.com/76610340/175435986-1ea866a3-7ac7-474a-81ed-ff12d78d8759.png" width="200px;" alt=""/><br />숭실대학교<br />유나경<br />Designer</td>
   </tr>
 </table>
 
@@ -31,10 +31,10 @@
 |:--:|:--:|
 |전동휠체어 급속충전기 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435097-21b44c7a-196f-412f-b632-67025a512a29.gif" width="200">|
 |지하철 휠체어 리프트 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435086-1884ae8d-dd26-4b53-a4ce-3c713f68306e.gif" width="200">|
-|장애인 화장실 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175435124-a524ab4c-3c95-4484-a983-cc587ba2843f.gif" width="200">|
+|장애인 화장실 위치 안내|<img src="https://user-images.githubusercontent.com/76610340/175437023-821258fb-b8e4-4057-a548-fc2fe719c9a2.gif" width="200">|
 |휠체어가 가기 힘든 길 민원 등록|<img src="https://user-images.githubusercontent.com/76610340/175434379-fff3bba1-74e8-49ce-80c1-57cc4116e8e0.gif" width="200">|
 |검색을 대신 해주는 챗봇 |<img src="https://user-images.githubusercontent.com/76610340/175434560-cde9162b-931b-41cb-a4ac-ae968dfa797e.gif" width="200">|
-<br>
+
 
 ## <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> Hermes Notion
 
@@ -60,6 +60,7 @@
 <details>
 <summary>폴더링 컨벤션 보기</summary>
 <div markdown="1">
+
 ```
 📦 Hermes
 |
@@ -73,18 +74,20 @@
 │
 |
 + 🗂 Sources
-│         `
+│        
 +-------🗂 Network
 |
 +-------🗂 View
 │         └── 🗂 Map
-│         └── 🗂 Toilet
+│         └── 🗂 Toilet
 │         └── 🗂 Charger
-│         └── 🗂 Lift
-│         └── 🗂 Report
+│         └── 🗂 Lift
+│         └── 🗂 Report
 │         └── 🗂 ChatBot
 │
 ```
+
+<br>
 </div>
 </details>
 <br>
