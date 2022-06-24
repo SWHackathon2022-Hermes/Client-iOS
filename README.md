@@ -17,7 +17,10 @@
 <!-- markdownlint-disable -->
 
 > **Hermes는 여행자를 주관하는 신입니다.
-휠체어 사용자도 어디든 여행을 떠날 수 있는 여행자가 되길 바라며, 해당 어플이 휠체어 사용자를 위한 사용자의 전령이자, 사용자의 심부름꾼이 되길 바라는 마음으로 임시로 지은 이름입니다.**
+휠체어 사용자도 어디든 여행을 떠날 수 있는 여행자가 되길 바라며, 해당 어플이 휠체어 사용자를 위한 사용자의 전령이자, 사용자의 심부름꾼이 되길 바라는 마음으로 지은 팀명이자 서비스명입니다.**
+>
+> **메인 색상: 보라색**
+> **선정 이유: 보라색은 국제적으로 장애인 사회와 연관된 대표 색상이며, 사회 통합과 실현 가능한 변화를 촉구하는 의미를 가집니다.**
 
 <table>
   <tr>
@@ -229,15 +232,15 @@ CoreSimulator 802.6.1
 
 
 ## 👩‍👩‍👧‍👦 참가자 코멘트
-- 정승균 :
-- 임주민 : 
-- 김나연 :
-- 유나경 :
-- 최유진 : 
+- 정승균
+- 임주민 
+- 김나연
+- 유나경
+- 최유진 
 
 <br>
 
-### <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> [Hermes 영상 Youtube 바로가기](https://www.)
+### <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> [Hermes 영상 Youtube 바로가기](https://www.youtube.com/watch?v=oKZMKsE0-uU)
 
 
 ### <img width=25px src=https://user-images.githubusercontent.com/76610340/175431446-8e3923d3-9418-4cda-af2b-44e26a69bbc1.png> [Hermes 문서 Notion 바로가기](https://www.notion.so/Hermes-55dde0987fad40d0a0648eedcf63b14e)
